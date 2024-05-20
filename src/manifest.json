@@ -1,0 +1,27 @@
+{
+  "testId": "a6f79752-aca7-4920-9fd0-ce9338c50451",
+  "name": "Icons",
+  "version": "1.0.0",
+  "manifestVersion": 2,
+  "requirements": {
+    "apps": [
+      {
+        "name": "Express",
+        "apiVersion": 1
+      }
+    ]
+  },
+  "entryPoints": [
+    {
+      "type": "panel",
+      "id": "panel1",
+      "main": "index.html",
+      "permissions": {
+        "sandbox": [
+          "allow-popups",
+          "allow-popups-to-escape-sandbox"
+        ]
+      }
+    }
+  ]
+}
