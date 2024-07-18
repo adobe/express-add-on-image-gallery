@@ -59,7 +59,7 @@ export const useSearchAssets = () => {
   }, []);
 
   /**
-   * Submit searche
+   * Submit search
    */
   const handleSearchSubmit = () => {
     const filteredCards = imageData.filter((data) => {
