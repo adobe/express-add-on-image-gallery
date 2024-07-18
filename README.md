@@ -45,4 +45,4 @@ The copyright of the icons belongs to Tabler. You must agree to the [Tabler Prod
 
 ### Related projects
 
-[JOY Illustrations ](https://new.express.adobe.com/add-ons?addOnId=w5i57l4lk) by [note design](https://note.design/).
+ - [JOY Illustrations ](https://new.express.adobe.com/add-ons?addOnId=w5i57l4lk) by [note design](https://note.design/).
