@@ -43,6 +43,11 @@ Sample icon images from [Tabler Icons](https://tabler.io/icons) will be stored i
 
 The copyright of the icons belongs to Tabler. You must agree to the [Tabler Products License](https://tabler.io/license) to use the icons.
 
-### Related projects
+## Add-on Showcase
 
- - [JOY Illustrations ](https://new.express.adobe.com/add-ons?addOnId=w5i57l4lk) by [note design](https://note.design/).
+Below is a table showcasing add-ons based on this project. Click the add-on name to open it in Adobe Express.
+
+|Add-on|Publisher|Description|Project page|
+|-|-|-|-|
+|[JOY Illustrations](https://new.express.adobe.com/add-ons?addOnId=w5i57l4lk)| [note design](https://note.design/) | 420+ Free Flat Line Illustrations by note.inc |[Github](https://github.com/pocake/express-add-on-image-gallery/tree/feature/joy)|
+|[User Friendly Icon](https://new.express.adobe.com/add-ons?addOnId=wj8j44903)| [Adobe](https://adobe.com) | Assets for administrative procedures & common use ||
