@@ -23,15 +23,15 @@ If you are not familiar with Adobe Express add-on, please see [Adobe Express Add
 3. add/remove the strings on resouce file such as `src/locales/resources/en-US.json`
 4. add/remove the locale list to add/remove the supported locale `src/locales/localeList.js`
 
-### Contributing
+## Contributing
 
 Contributions are welcomed! Read the [Contributing Guide](./.github/CONTRIBUTING.md) for more information.
 
-### Licensing
+## Licensing
 
 This project is licensed under the Apache V2 License. See [LICENSE](LICENSE) for more information.
 
-### Reference
+## Reference
 
 - [Tabler Icons: 5200\+ free vector icons for web design \- Tabler: Free and Open\-Source HTML Dashboard Template](https://tabler.io/icons)
 - [Tabler Products License \- Tabler: Free and Open\-Source HTML Dashboard Template](https://tabler.io/license)
@@ -42,3 +42,12 @@ This project is licensed under the Apache V2 License. See [LICENSE](LICENSE) for
 Sample icon images from [Tabler Icons](https://tabler.io/icons) will be stored in the `src/images` folder after running `npm run setup:icons` command.
 
 The copyright of the icons belongs to Tabler. You must agree to the [Tabler Products License](https://tabler.io/license) to use the icons.
+
+## Add-on Showcase
+
+Below is a table showcasing add-ons based on this project. Click the add-on name to open it in Adobe Express.
+
+|Add-on|Publisher|Description|Project page|
+|-|-|-|-|
+|[JOY Illustrations](https://new.express.adobe.com/add-ons?addOnId=w5i57l4lk)| [note design](https://note.design/) | 420+ Free Flat Line Illustrations by note.inc |[Github](https://github.com/pocake/express-add-on-image-gallery/tree/feature/joy)|
+|[User Friendly Icon](https://new.express.adobe.com/add-ons?addOnId=wj8j44903)| [Adobe](https://adobe.com) | Assets for administrative procedures & common use ||
