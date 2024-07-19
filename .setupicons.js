@@ -10,7 +10,7 @@ OF ANY KIND, either express or implied. See the License for the specific languag
 governing permissions and limitations under the License.
 */
 
-const { convertFile } = require("convert-svg-to-png");
+const sharp = require("sharp");
 const fs = require("fs");
 const path = require("path");
 
@@ -289,7 +289,7 @@ const _imageData = [
     imageUrl: "./images/tabler-icons/outline/mood-smile.png",
   },
   {
-    imageUrl: "./images/tabler-icons/outline/mood-suprised.png",
+    imageUrl: "./images/tabler-icons/outline/mood-surprised.png",
   },
   {
     imageUrl: "./images/tabler-icons/outline/mood-tongue-wink-2.png",
@@ -478,13 +478,11 @@ _imageData.forEach((asset) => {
     console.log(`preparing  ${imageUrl}`);
 
     fs.mkdirSync(outputDir, { recursive: true });
-    await convertFile(inputFilePath, {
-      outputFilePath,
-      width: icon_image_width,
-    });
-    console.log(
-      `converted image from ${inputFilePath} to ${outputFilePath}`,
-    );
+    await sharp(inputFilePath)
+      .png()
+      .resize(icon_image_width, null)
+      .toFile(outputFilePath);
+    console.log(`converted image from ${inputFilePath} to ${outputFilePath}`);
   });
 });
 

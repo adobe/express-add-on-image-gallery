@@ -542,8 +542,8 @@ const _getImageData = () => {
       category: 'mood',
     },
     {
-      imageUrl: './images/tabler-icons/outline/mood-suprised.png',
-      title: 'mood-suprised',
+      imageUrl: './images/tabler-icons/outline/mood-surprised.png',
+      title: 'mood-surprised',
       assetType: 'outline',
       category: 'mood',
     },
